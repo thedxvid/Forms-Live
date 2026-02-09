@@ -8,7 +8,7 @@ interface HeroProps {
 
 export const Hero: React.FC<HeroProps> = ({ onStart }) => {
   return (
-    <section className="min-h-[80vh] flex flex-col items-center justify-center px-6 py-20 text-center">
+    <section className="min-h-[80vh] flex flex-col items-center justify-center px-6 py-20 text-center relative z-10">
       <motion.div
         initial={{ opacity: 0, scale: 0.9 }}
         animate={{ opacity: 1, scale: 1 }}
