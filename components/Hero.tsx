@@ -53,7 +53,7 @@ export const Hero: React.FC<HeroProps> = ({ onStart }) => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.8 }}
         onClick={onStart}
-        className="w-full max-w-md h-16 bg-white text-black text-lg font-semibold rounded-xl shadow-[0_4px_24px_rgba(255,255,255,0.15)] hover:shadow-[0_8px_32px_rgba(255,255,255,0.25)] hover:-translate-y-1 active:scale-95 transition-all duration-300"
+        className="w-full max-w-md h-16 md:h-20 bg-white text-black text-xl md:text-2xl font-bold rounded-2xl shadow-[0_4px_24px_rgba(255,255,255,0.15)] hover:shadow-[0_8px_32px_rgba(255,255,255,0.25)] hover:-translate-y-1 active:scale-95 transition-all duration-300 flex items-center justify-center"
       >
         GARANTIR MINHA VAGA (Grátis)
       </motion.button>

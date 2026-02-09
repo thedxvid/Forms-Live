@@ -2,7 +2,7 @@
 import React from 'react';
 import { QuestionConfig } from './types';
 
-export const WEBHOOK_URL = 'https://webhook.site/placeholder-id'; // To be replaced by env var in production
+export const WEBHOOK_URL = 'https://autowebhook.mgtinc.cloud/webhook/Forms-grupo-whatsApp';
 
 export const QUESTIONS: QuestionConfig[] = [
   {
@@ -31,4 +31,4 @@ export const QUESTIONS: QuestionConfig[] = [
   }
 ];
 
-export const WHATSAPP_LINK = 'https://chat.whatsapp.com/GzB9oN2w2iW9vJ6hU8P3fQ'; // Replace with real group ID
+export const WHATSAPP_LINK = 'https://chat.whatsapp.com/C2lriBaXu2nKuNaLtthl8O';
